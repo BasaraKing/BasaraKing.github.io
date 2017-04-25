@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="{CHARSET}">
+		<title></title>
+		<script>
+			//动态设置像素比
+			var pixelRatio = 1 / window.devicePixelRatio;
+			document.write('<meta name="viewport" content="width=device-width,initial-scale='+ pixelRatio +',minimum-scale='+ pixelRatio +',maximum-scale='+ pixelRatio +',user-scalable=no" />');
+			
+			//获取html节点
+			var html=document.getElementsByTagName("html")[0];
+			//获取屏幕宽度
+			var pageWidth=html.getBoundingClientRect().width;
+			//屏幕宽度/数值=结果
+			html.style.fontSize=pageWidth/16+"px";
+		
+		</script>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+	</head>
+	<body>
+		<header class="header">
+			<a class="category" href="#"><img src="images/category.jpg"/></a>
+			<a class="search" href="#">
+				<form>
+					<input type="text" placeholder="荣耀4X最后一天预订！"/>
+				</form>
+			</a>
+			<a class="buy" href="#"><img src="images/buy.jpg"/></a>
+		</header>
+		<section class="baner">
+			<a href="#"><img src="images/banner.jpg"/></a>
+		</section>
+		<section class="money">
+			<a href="#"><img src="images/money.jpg"/></a>
+		</section>
+		<section class="list">
+			<dl class="item">
+				<dt></dt>
+				<dd><a href="#">大聚惠</a></dd>
+			</dl>
+			<dl class="item">
+				<dt></dt>
+				<dd><a href="#">海外购</a></dd>
+			</dl>
+			<dl class="item">
+				<dt></dt>
+				<dd><a href="#">苏宁超市</a></dd>
+			</dl>
+			<dl class="item">
+				<dt></dt>
+				<dd><a href="#">红孩子</a></dd>
+			</dl>
+			<dl class="item">
+				<dt></dt>
+				<dd><a href="#">嗨购精选</a></dd>
+			</dl>
+			<dl class="item">
+				<dt></dt>
+				<dd><a href="#">我的易购</a></dd>
+			</dl>
+			<dl class="item">
+				<dt></dt>
+				<dd><a href="#">金融</a></dd>
+			</dl>
+			<dl class="item">
+				<dt></dt>
+				<dd><a href="#">领云钻</a></dd>
+			</dl>
+			<dl class="item">
+				<dt></dt>
+				<dd><a href="#">门店导购</a></dd>
+			</dl>
+			<dl class="item">
+				<dt></dt>
+				<dd><a href="#">客户端下载</a></dd>
+			</dl>
+		</section>
+		<section class="sn-head">
+			<div class="sn-left">
+				<div class="sn1"></div>
+			</div>
+			<div class="sn-right">
+				<a class="a1" href="#">分分钟KO宋仲基,撩妹"时"力派</a>
+				<a class="a2" href="#">火爆小短裤,穿出最精致的你~</a>
+			</div>
+		</section>
+		<section class="go">
+			<div class="go-left">
+				<a href="#"><img src="images/images/go_02.jpg"/></a>
+			</div>
+			<div class="go-right">
+				<a class="go-right1" href="#"><img src="images/images/go_03.jpg"/></a>
+				<a class="go-right2" href="#"><img src="images/images/go_05.jpg"/></a>
+			</div>
+			<div class="go-bottom">
+				<a href="#"><img src="images/images/go_06.jpg"/></a>
+				<a href="#"><img src="images/images/go_06.jpg"/></a>
+				<a href="#"><img src="images/images/go_06.jpg"/></a>
+				<a href="#"><img src="images/images/go_06.jpg"/></a>
+				<a href="#"><img src="images/images/go_06.jpg"/></a>
+				<a href="#"><img src="images/images/go_06.jpg"/></a>
+				<a href="#"><img src="images/images/go_06.jpg"/></a>
+				<a href="#"><img src="images/images/go_06.jpg"/></a>
+			</div>
+		</section>
+		<section class="hand">
+			<ul>
+				<li class="hand1"></li>
+				<li class="hand2">20点场</li>
+				<li class="hand3"></li>
+				<li class="hand4"><a href="#">吃货上新季</a></li>
+			</ul>
+			<dl>
+				<dt><a href="#"><img src="images/bg.png"/></a></dt>
+				<dd>
+					<a href="#">
+						<div class="m1">¥15.90</div>
+						<div class="m2"><strike>¥56.00</strike></div>
+					</a>
+					<div class="cheap"><img src="images/cheap.png"/></div>
+				</dd>
+			</dl>
+			<dl>
+				<dt><a href="#"><img src="images/bg.png"/></a></dt>
+				<dd>
+					<a href="#">
+						<div class="m1">¥15.90</div>
+						<div class="m2"><strike>¥56.00</strike></div>
+					</a>
+					<div class="cheap"><img src="images/cheap.png"/></div>
+				</dd>
+			</dl>
+			<dl>
+				<dt><a href="#"><img src="images/bg.png"/></a></dt>
+				<dd>
+					<a href="#">
+						<div class="m1">¥15.90</div>
+						<div class="m2"><strike>¥56.00</strike></div>
+					</a>
+					<div class="cheap"><img src="images/cheap.png"/></div>
+				</dd>
+			</dl>
+		</section>
+		<section class="deserve">
+			<a href="#"><img src="images/phone.jpg"/></a>
+			<a href="#"><img src="images/phone.jpg"/></a>
+		</section>
+		<section class="big">
+			<div class="big-title">大聚惠·精编</div>
+			<div class="big-left">
+				<a href="#"><img src="images/images/tu_09.jpg"/></a>
+			</div>
+			<div class="big-right">
+				<a class="big1" href="#"><img src="images/images/tu_11.jpg"/></a>
+				<a class="big2" href="#"><img src="images/images/tu_14.jpg"/></a>
+				<a class="big2" href="#"><img src="images/images/tu_14.jpg"/></a>
+			</div>
+		</section>
+		<section class="everyday">
+			<a href="#"><img src="images/images/tu_18.jpg"/></a>
+		</section>
+		<section class="good">
+			<div class="good-title"><a href="#">特色好货</a></div>
+			<div class="good-left">
+				<a href="#"><img src="images/images/tu_20.jpg"/></a>
+				<a href="#"><img src="images/pai.jpg"/></a>
+				<a href="#"><img src="images/pai.jpg"/></a>
+				<a href="#"><img src="images/pai.jpg"/></a>
+			</div>
+			<div class="good-right">
+				<a href="#"><img src="images/pai.jpg"/></a>
+				<a href="#"><img src="images/pai.jpg"/></a>
+				<a href="#"><img src="images/pai.jpg"/></a>
+				<a href="#"><img src="images/pai.jpg"/></a>
+				<a href="#"><img src="images/pai.jpg"/></a>
+			</div>
+		</section>
+		<section class="mum">
+			<a href="#"><img src="images/images/tu_25.jpg"/></a>
+		</section>
+		<section class="market">
+			<div class="market-title">
+				<a href="#">热门市场</a>
+			</div>
+			<div class="market-top">
+				<a href="#"><img src="images/images/tu_27.jpg"/></a>
+				<a href="#"><img src="images/images/tu_27.jpg"/></a>
+			</div>	
+			<div class="market-bottom">
+				<a href="#"><img src="images/red.jpg"/></a>
+				<a href="#"><img src="images/red.jpg"/></a>
+				<a href="#"><img src="images/red.jpg"/></a>
+				<a href="#"><img src="images/red.jpg"/></a>
+				<a href="#"><img src="images/red.jpg"/></a>
+				<a href="#"><img src="images/red.jpg"/></a>
+				<a href="#"><img src="images/red.jpg"/></a>
+				<a href="#"><img src="images/red.jpg"/></a>
+				<a href="#"><img src="images/red.jpg"/></a>
+				<a class="market-bottom1" href="#"><img src="images/clear.jpg"/></a>
+				<a class="market-bottom1" href="#"><img src="images/clear.jpg"/></a>
+				<a class="market-bottom1" href="#"><img src="images/clear.jpg"/></a>
+			</div>
+		</section>
+		<section class="logo">
+			<div class="logo-title">
+				<a href="#">品牌荟萃</a>
+			</div>
+			<div class="logos">
+				<div class="logo-left">
+					<a href="#"><img src="images/money1.jpg"/></a>
+				</div>
+				<div class="logo-right">
+					<a href="#"><img src="images/money2.jpg"/></a>
+					<a href="#"><img src="images/money2.jpg"/></a>
+				</div>
+		</section>
+		<section class="phone">
+			<div class="phone-title">
+				<a href="#">好店推荐</a>
+			</div>
+			<div class="phone-left">
+				<div class="phone-top">
+					<div class="pt1">
+						<img src="images/tel.png"/>
+					</div>
+					<div class="pt2">
+						<p>搞机大咖</p>
+						<p>潮机新时尚</p>
+					</div>					
+				</div>
+				<div class="phone-bottom">
+					<div class="pb1">
+						<a href="#"><img src="images/tel.jpg"/></a>
+					</div>
+					<div class="pb2">
+						<a href="#"><img src="images/tel.jpg"/></a>
+						<a href="#"><img src="images/tel.jpg"/></a>
+					</div>
+				</div>
+			</div>
+			<div class="phone-left">
+				<div class="phone-top">
+					<div class="pt1">
+						<img src="images/tel.png"/>
+					</div>
+					<div class="pt2">
+						<p>搞机大咖</p>
+						<p>潮机新时尚</p>
+					</div>					
+				</div>
+				<div class="phone-bottom">
+					<div class="pb1">
+						<a href="#"><img src="images/tel.jpg"/></a>
+					</div>
+					<div class="pb2">
+						<a href="#"><img src="images/tel.jpg"/></a>
+						<a href="#"><img src="images/tel.jpg"/></a>
+					</div>
+				</div>
+			</div>
+			<div class="circle"></div>
+		</section>
+		<section class="like">
+			<div class="like-title">
+				<p></p>
+				<p><img src="images/heart.jpg"/></p>
+				<p>猜你喜欢</p>
+				<p></p>
+			</div>
+			<div class="bag">
+				<div class="bags">
+					<dl>
+						<dt><a href="#"><img src="images/bag.jpg"/></a></dt>
+						<dd>
+							<p>原装联想TinkPaid电脑包14寸15寸笔记本双肩男女士背...</p>
+							<p>¥89.00</p>
+						</dd>
+					</dl>
+				</div>
+				<div class="bags">
+					<dl>
+						<dt><a href="#"><img src="images/bag.jpg"/></a></dt>
+						<dd>
+							<p>原装联想TinkPaid电脑包14寸15寸笔记本双肩男女士背...</p>
+							<p>¥89.00</p>
+						</dd>
+					</dl>
+				</div>
+				<div class="bags">
+					<dl>
+						<dt><a href="#"><img src="images/bag.jpg"/></a></dt>
+						<dd>
+							<p>原装联想TinkPaid电脑包14寸15寸笔记本双肩男女士背...</p>
+							<p>¥89.00</p>
+						</dd>
+					</dl>
+				</div>
+				<div class="bags">
+					<dl>
+						<dt><a href="#"><img src="images/bag.jpg"/></a></dt>
+						<dd>
+							<p>原装联想TinkPaid电脑包14寸15寸笔记本双肩男女士背...</p>
+							<p>¥89.00</p>
+						</dd>
+					</dl>
+				</div>
+				<div class="bags">
+					<dl>
+						<dt><a href="#"><img src="images/bag.jpg"/></a></dt>
+						<dd>
+							<p>原装联想TinkPaid电脑包14寸15寸笔记本双肩男女士背...</p>
+							<p>¥89.00</p>
+						</dd>
+					</dl>
+				</div>
+				<div class="bags">
+					<dl>
+						<dt><a href="#"><img src="images/bag.jpg"/></a></dt>
+						<dd>
+							<p>原装联想TinkPaid电脑包14寸15寸笔记本双肩男女士背...</p>
+							<p>¥89.00</p>
+						</dd>
+					</dl>
+				</div>
+				<div class="bags">
+					<dl>
+						<dt><a href="#"><img src="images/bag.jpg"/></a></dt>
+						<dd>
+							<p>原装联想TinkPaid电脑包14寸15寸笔记本双肩男女士背...</p>
+							<p>¥89.00</p>
+						</dd>
+					</dl>
+				</div>
+				<div class="bags">
+					<dl>
+						<dt><a href="#"><img src="images/bag.jpg"/></a></dt>
+						<dd>
+							<p>原装联想TinkPaid电脑包14寸15寸笔记本双肩男女士背...</p>
+							<p>¥89.00</p>
+						</dd>
+					</dl>
+				</div>
+			</div>
+		</section>
+		<section class="download">
+			<a href="#"><img src="images/bottom1.jpg"/></a>
+		</section>
+		<section class="dh">
+			<a href="#">登录</a>
+			<a href="#">注册</a>
+			<a href="#">电脑版</a>
+			<a href="#">普通版</a>
+			<a href="#">客户端</a>
+		</section>
+		<section class="yw">
+			<a href="#">copyright&copy;2002-2016苏宁suning.com版权所有</a>
+		</section>
+	</body>
+</html>
