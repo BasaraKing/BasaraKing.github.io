@@ -1,0 +1,102 @@
+@charset "utf-8";
+/* CSS Document */
+body,p,dl,dt,dd,ul,{margin:0;padding:0;}
+img{border:0;}
+ul,li{list-style:none;}
+a{text-decoration:none;}
+
+.box{width:1598px;height:998px;margin:0 auto;background: url(image/1-bg.jpg) no-repeat;border:1px solid #fff;}
+.left{width:590px;height:911px;background:#fff;margin-top:39px;margin-left:111px;float:left;}
+.title{width:455px;height:40px;padding-top:44px;margin-left:65px;font-size:14px;color:#6a6a5a;}
+.title{color:#ea8d9e;margin-right:5px;}
+.title .title1{width:288px;height:38px;border:1px solid #e7788d;margin-left:16px;}
+.title2{color:#999999;width:73px;margin-left:18px;}
+.name{width:383px;height:40px;font-size:14px;color:#ea8d9e;margin-top:21px;margin-left:47px;}
+.name1{width:290px;height:40px;border:none;background:#f9f9f9;margin-left:16px;}
+.sp{width:500px;height:40px;margin-top:21px;margin-left:51px;}
+.sp .sp1{color:#ea8d9e;margin-right:4px;}
+.sp .sp2{font-size:14px;color:#6a6a5a;}
+.sp .sp3{width:140px;height:40px;margin-left:16px;margin-right:20px;font-size:14px;color:#000;}
+.sp .sp4{width:130px;height:40px;font-size:14px;color:#000;margin-right:9px;}
+.sp .sp5{width:110px;height:40px;font-size:14px;color:#000;border:none;}
+.sx{width:214px;height:20px;margin-top:32px;margin-left:65px;}
+.sx .sx1{color:#ea8d9e;margin-right:4px;}
+.sx .sx2{font-size:14px;color:#6a6a5a;}
+.sx3{width:20px;height:20px;margin-left:15px;margin-right:7px;}
+.sx4{width:20px;height:20px;margin-left:40px;}
+.sx span{font-size:14px;line-height:20px;text-align:center;}
+.day{width:432px;height:40px;margin-top:32px;margin-left:76px;}
+.day span{font-size:14px;color:#6a6a5a;}
+.day .day1{width:90px;height:40px;margin-left:16px;margin-right:20px;font-size:14px;color:#000;}
+.day .day2{width:80px;height:40px;margin-right:20px;font-size:14px;color:#000;}
+.day .day3{width:80px;height:40px;margin-right:9px;font-size:14px;color:#000;}
+.day .day4{width:67px;height:40px;font-size:14px;color:#000;border:none;}
+.blog{width:504px;height:40px;margin-top:20px;margin-left:47px;}
+.blog span{font-size:14px;color:#6a6a5a;}
+.blog .blog1{width:289px;height:40px;margin-left:17px;margin-right:9px;background:#f9f9f9;}
+.blog .blog2{width:108px;height:40px;border:none;font-size:14px;color:#000;}
+.emil{width:323px;height:25px;margin-left:48px;margin-top:27px;}
+.emil span{font-size:14px;color:#6a6a5a;}
+.emil .emil1{width:100px;height:25px;margin-left:16px;margin-right:14px;border:none;}
+.emil .emil2{width:50px;height:25px;background:#e7788d;font-size:14px;color:#fff;}
+.qq{width:331px;height:40px;margin-left:81px;margin-top:30px;font-size:14px;color:#6a6a5a;}
+.qq .qq1{width:280px;height:40px;background:#f9f9f9;border:none;margin-left:16px;}
+.tal{width:400px;height:80px;margin-top:23px;margin-left:25px;font-size:14px;color:#6a6a5a;}
+.tal .tal1{width:289px;height:80px;margin-left:16px;background:#f9f9f9;border:none;}
+.bottom{width:590px;height:274px;border-top:1px solid #d2d2d2;margin-top:23px;}
+.bottom1{font-size:14px;color:#999999;margin-top:24px;margin-left:34px;width:266px;height:14px;}
+.bottom2{width:233px;height:40px;margin-top:26px;margin-left:47px;font-size:14px;color:#6a6a6a;}
+.bottom2 select{width:140px;height:40px;margin-left:16px;}
+.bottom3{width:382px;height:40px;margin-top:23px;margin-left:47px;font-size:14px;color:#6a6a6a;}
+.bottom3 input{width:289px;height:40px;margin-left:16px;border:none;background:#f9f9f9;}
+.b{width:417px;height:44px;margin-bottom:26px;margin-left:47px;}
+.b .b1{width:130px;height:44px;font-size:18px;color:#fff;margin-top:26px;margin-left:127px;margin-right:30px;background:#e7788d;}
+.b .b2{width:130px;height:44px;font-size:18px;color:#e7788d;border:2px solid #e7788d;background:#fff;}
+
+.right{width:590px;height:911px;background: url(image/bg-1.jpg);margin-top:39px;margin-left:196px;float:left;}
+.right .title{width:455px;height:40px;padding-top:44px;margin-left:65px;font-size:14px;color:#fff;}
+.right .title{color:#fff;margin-right:5px;}
+.right .title .title1{width:288px;height:38px;border:1px solid #fff;margin-left:16px;background:none;}
+.right .title2{color:#fff;width:73px;margin-left:18px;}
+.right .name{width:383px;height:40px;font-size:14px;color:#fff;margin-top:21px;margin-left:47px;}
+.right .name1{width:290px;height:40px;border:1px solid #fff;background:none;margin-left:16px;}
+.right .sp{width:500px;height:40px;margin-top:21px;margin-left:51px;}
+.right .sp .sp1{color:#fff;margin-right:4px;}
+.right .sp .sp2{font-size:14px;color:#fff;}
+.right .sp .sp3{width:140px;height:40px;margin-left:16px;margin-right:20px;font-size:14px;color:#fff;background:none;border:1px solid #fff;}
+.right .sp .sp4{width:130px;height:40px;font-size:14px;color:#fff;margin-right:9px;background:none;border:1px solid #fff;}
+.right .sp .sp5{width:110px;height:40px;font-size:14px;color:#fff;border:none;background:none;border:1px solid #fff;}
+.right .sx{width:214px;height:20px;margin-top:32px;margin-left:65px;}
+.right .sx .sx1{color:#fff;margin-right:4px;}
+.right .sx .sx2{font-size:14px;color:#fff;}
+.right .sx3{width:20px;height:20px;margin-left:15px;margin-right:7px;background:none;border:1px solid #fff;}
+.right .sx4{width:20px;height:20px;margin-left:40px;background:none;border:1px solid #fff;}
+.right .sx span{font-size:14px;line-height:20px;text-align:center;}
+.right .day{width:432px;height:40px;margin-top:32px;margin-left:76px;}
+.right .day span{font-size:14px;color:#fff;}
+.right .day .day1{width:90px;height:40px;margin-left:16px;margin-right:20px;font-size:14px;color:#fff;background:none;border:1px solid #fff;}
+.right .day .day2{width:80px;height:40px;margin-right:20px;font-size:14px;color:#fff;background:none;border:1px solid #fff;}
+.right .day .day3{width:80px;height:40px;margin-right:9px;font-size:14px;color:#fff;background:none;border:1px solid #fff;}
+.right .day .day4{width:67px;height:40px;font-size:14px;color:#fff;border:none;background:none;border:1px solid #fff;}
+.right .blog{width:504px;height:40px;margin-top:20px;margin-left:47px;}
+.right .blog span{font-size:14px;color:#fff;}
+.right .blog .blog1{width:289px;height:40px;margin-left:17px;margin-right:9px;background:#fff;background:none;border:1px solid #fff;}
+.right .blog .blog2{width:108px;height:40px;background:none;border:1px solid #fff;font-size:14px;color:#fff;}
+.right .emil{width:323px;height:25px;margin-left:48px;margin-top:27px;}
+.right .emil value{color:#fff;}
+.right .emil span{font-size:14px;color:#fff;}
+.right .emil .emil1{width:100px;height:25px;margin-left:16px;margin-right:14px;background:none;}
+.right .emil .emil2{width:50px;height:25px;background:#e7788d;font-size:14px;color:#fff;}
+.right .qq{width:331px;height:40px;margin-left:81px;margin-top:30px;font-size:14px;color:#fff;}
+.right .qq .qq1{width:280px;height:40px;background:none;border:1px solid #fff;margin-left:16px;}
+.right .tal{width:400px;height:80px;margin-top:23px;margin-left:25px;font-size:14px;color:#fff;}
+.right .tal .tal1{width:289px;height:80px;margin-left:16px;background:none;border:1px solid #fff;}
+.right .bottom{width:590px;height:274px;border-top:1px solid #fff;margin-top:23px;}
+.right .bottom1{font-size:14px;color:#fff;margin-top:24px;margin-left:34px;width:266px;height:14px;}
+.right .bottom2{width:233px;height:40px;margin-top:26px;margin-left:47px;font-size:14px;color:#fff;}
+.right .bottom2 select{width:140px;height:40px;margin-left:16px;background:none;border:1px solid #fff;color:#fff;}
+.right .bottom3{width:382px;height:40px;margin-top:23px;margin-left:47px;font-size:14px;color:#fff;}
+.right .bottom3 input{width:289px;height:40px;margin-left:16px;background:none;border:1px solid #fff;}
+.right .b{width:417px;height:44px;margin-bottom:26px;margin-left:47px;}
+.right .b .b1{width:130px;height:44px;font-size:18px;color:#fff;margin-top:26px;margin-left:127px;margin-right:30px;background:#e7788d;}
+.right .b .b2{width:130px;height:44px;font-size:18px;color:#e7788d;border:2px solid #e7788d;background:none;}
