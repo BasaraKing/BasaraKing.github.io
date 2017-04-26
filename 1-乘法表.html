@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+		div{
+			width: 80px;
+			height: 30px;
+			font-size: 18px;
+			text-align: center;
+			line-height: 30px;
+			background-color: yellow;
+			position: absolute;
+		}
+	</style>
+</head>
+<body>
+	<script type="text/javascript">
+	var str = '';
+
+	for(var i=1;i<10;i++){
+		for(var j=i;j<10;j++){
+			str += '<div style="left:'+(i-1)*90+'px;top:'+(j-1)*40+'px;">'+i+'X'+j+'='+i*j+'</div>';
+			// console.log('i:'+i,'j:'+j,'result:'+i*j);
+		}
+	}
+	document.body.innerHTML = str;
+	</script>
+</body>
+</html>
