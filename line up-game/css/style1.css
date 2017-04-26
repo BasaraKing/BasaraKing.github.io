@@ -8,6 +8,7 @@ body,ul,li,em,p{
 a{
 	text-decoration:none;
 	display: block;
+	font-family: Arial,pt-sans,sans-serif;
 }
 ul,li{
 	list-style:none;
@@ -20,10 +21,13 @@ i{
 	display: block;
 }
 body{
-	background: #96cbee;
+	background: #e8daba;
 }
+.container{overflow: hidden;}
+.steps-wrapper{overflow: hidden; height:100%;}
 .giftcard{
 	overflow: hidden;
+	background: #e8daba;
 }
 .bg{
 	width: 200%;
@@ -142,13 +146,13 @@ body{
 .persons-color{
 	position: relative;
 	width: 100%;
-	background: #e8daba;
-	padding-bottom: 149px;
+	/*
+	padding-bottom: 54px;*/
 }
 .people{
 	position: relative;
 	width: 100%;
-	height: 250px;
+	height: 190px;
 	background: #ebd39f;
 	border-bottom: 8px solid #ba9d5d;
 }
@@ -157,7 +161,7 @@ body{
 	left: 0;
 	top: 0;
 	width: 100%;
-	height: 288px;
+	/*height: 288px;*/
 }
 .persons>span{
 	width: 63px;
@@ -207,6 +211,7 @@ body{
 	-webkit-user-select: none;
 	touch-action: none;
 	pointer-events: none;
+	font-family: Arial,pt-sans,sans-serif;
 }
 .tooltip:after{
 	position: absolute;
@@ -221,13 +226,15 @@ body{
 .railing{
 	width: 100%;
 	position: absolute;
-	bottom: 254px;
+	bottom: 60px;
 	left: 0;
 	height: 130px;
 	background-image: url(../img/queue-railing.svg);
 	background-repeat: repeat-x;
 	background-size: auto 100%;
 }
-
-
-
+.foot{
+	width:100%;
+	height:64px;
+	background: #e8daba;
+}
