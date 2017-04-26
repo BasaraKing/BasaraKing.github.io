@@ -1,0 +1,136 @@
+<!DOCTYPE html >
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>无标题文档</title>
+    <style type="text/css">
+        #iphone{
+            background: url(img1/iphone.png) no-repeat;
+            width: 291px;
+            height: 593px;
+            position: relative;
+            margin:0 auto;
+        }
+        #down{
+            position: absolute;
+            bottom:91px;
+            left: 30px;
+            height: 35px;
+        }
+        #txt{
+            margin-left: 8px;
+            height: 30px;
+            width: 130px;
+            vertical-align: top;
+        }
+        #img{
+            margin-top: 5px;
+            cursor: pointer;
+        }
+        #btn{
+            display: inline-block;
+            width: 50px;
+            height: 30px;
+        }
+        #content{
+            width: 238px;
+            height: 370px;
+            position: absolute;
+            left: 24px;
+            top:87px;
+            overflow-y: auto;
+        }
+        p{
+            margin: 0;
+            padding: 0;
+            word-break: break-all;
+            word-wrap:break-word;
+        }
+        #content p{
+            max-width: 182px;
+            line-height: 20px;
+            margin-top:10px;
+            background-color: green;
+        }
+        #content img{
+            margin: 5px;
+        }
+        #content div:after{
+            content: '';
+            display: block;
+            clear: both;
+        }
+        .left p,.left img{
+
+            float: left;
+        }
+        .right p,.right img{
+            float: right;
+        }
+    </style>
+</head>
+
+<body>
+<div id="iphone">
+    <div id="content">
+       <!--  <div class="right"><img src='img1/2.png'><p >啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊</p></div>
+             <div class="left">
+             <img src='img1/1.png'><p >啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊</p></div>
+             <div class="left"><img src='img1/1.png'><p >啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊</p></div> -->
+        <!--<div class="left"><img src='img1/1.png'><p >啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊</p></div>-->
+        <!--<div class="left"><img src='img1/2.png'><p >啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊</p></div>-->
+    </div>
+    <div id="down">
+        <img src="img1/1.png" alt="土豪" id="img">
+        <input type="text" name="" id="txt">
+        <a href="#" id="btn"></a>
+    </div>
+</div>
+</body>
+</html>
+<script type="text/javascript">
+    var img = document.getElementById('img');
+    var btn = document.getElementById('btn');
+    var txt = document.getElementById('txt');
+    var content = document.getElementById('content');
+    var onOff = true;
+    /*
+        !取非
+        如果后边的内容是真就变为假，如果是假就变为真。
+
+    */
+    // alert(!!onOff);
+    //切换图片
+    img.onclick = function(){
+        if(onOff){
+            img.src = 'img1/2.png';
+            // onOff = false;
+        }else{
+            img.src = 'img1/1.png';
+            // onOff = true;
+        }
+        onOff = !onOff;
+    };
+    //发送信息
+    btn.onclick = function(){
+        if(txt.value != ''){//txt.value不等于''就执行这里的代码
+            var value = txt.value;
+            /*
+                onOff为true表示1.png
+                否则2.png
+
+            */
+            //根据开关输出不同的内容。
+            if(onOff){
+                content.innerHTML = '<div class="left"><img src="img1/1.png"><p>'+value+'</p></div>'+content.innerHTML;
+            }else{
+                content.innerHTML = '<div class="right"><img src="img1/2.png"><p>'+value+'</p></div>'+content.innerHTML;
+            }
+            //发送结束清空
+            txt.value = '';
+        }
+        
+
+
+    };
+</script>
