@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<script type="text/javascript">
+	
+	var date = new Date();
+
+	date.setMonth(date.getMonth()+1);
+	console.log(date);
+	/*
+		如果当前月比下个月的总天数要多，并且当前时间刚好是处于多出来的日子，设置到下个月，多出的日子会进行累计，累计到下下个月。
+
+		设置的秒数超出，会累计到分钟，分钟会累计到小时，小时会累计到天数，以此类推至年。
+
+	*/
+	</script>
+</body>
+</html>
